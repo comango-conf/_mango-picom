@@ -3,4 +3,4 @@
 #HOOKS INTO wminit
 
 
-picom &
+picom --experimental-backends &
