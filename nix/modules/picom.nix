@@ -1,4 +1,6 @@
 {...}:
 {
-  packages.picom.enable = true;
+  environment.systemPackages = with pkgs; [
+    picom
+  ];
 }
